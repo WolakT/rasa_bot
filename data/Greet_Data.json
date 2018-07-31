@@ -1,0 +1,216 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hallo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Guten Morgen",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Guten Abend",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Guten Abend",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Guten Tag",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Servus",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Ich heisse Tom",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Tom",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin Richard",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Sabine",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sabine",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Richard",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "ich heisse Judith",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Judith",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "ich bin Sabine",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Sabine",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "ich heisse Hans",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Hans",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Siegfried",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Siegfried",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Ingo",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ingo",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Mathias",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Mathias",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Susanne",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Susanne",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Anna",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Anna",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Manfred",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Manfred",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Bernhard",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Bernhard",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Friedrich",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Friedrich",
+            "entity": "name"
+          }
+        ]
+      }
+    ]
+  }
+}

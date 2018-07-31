@@ -2,3 +2,6 @@
 *.pyc
 models/
 venv/
+fb.py
+fb_credentials.yml
+.gitignore

@@ -1,11 +1,17 @@
 ## greet
 * greet
-    - utter_greet
+    - utter_ask_name
+* inform{"name":"Tom"}
+    - slot{"name":"Tom"}
+    - reply_with_name 
+## greet 3
+* greet
+    - utter_ask_name
+* inform{"name":"Richard"}
+    - slot{"name":"Richard"}
+    - reply_with_name
 
-## thank
-* thank
-    - utter_thank
-
-## bye
-* bye
-    - utter_bye
+## greet4 
+* inform{"name":"Anna'}
+    - slot{"name":"Anna"}
+    - reply_with_name

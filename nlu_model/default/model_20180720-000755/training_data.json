@@ -1,0 +1,80 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Morgen"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Abend"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Abend"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Tag"
+      },
+      {
+        "intent": "greet",
+        "text": "Servus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Tom",
+            "entity": "name"
+          }
+        ],
+        "text": "Ich heisse Tom"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ],
+        "text": "Ich bin Richard"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sabine",
+            "entity": "name"
+          }
+        ],
+        "text": "Sabine"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ],
+        "text": "Richard"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
